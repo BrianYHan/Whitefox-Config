@@ -1,0 +1,2 @@
+# Whitefox-Config
+whitefox config
