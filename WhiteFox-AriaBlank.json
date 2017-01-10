@@ -524,8 +524,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LGUI",
-                    "label": "LGUI"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 }
             }
         },
@@ -909,8 +909,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUNCTION1",
-                    "label": "\u01921"
+                    "key": "LALT",
+                    "label": "LALT"
                 }
             }
         },
@@ -922,8 +922,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LALT",
-                    "label": "LALT"
+                    "key": "LGUI",
+                    "label": "LGUI"
                 }
             }
         },
