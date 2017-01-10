@@ -18,16 +18,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKTICK",
-                    "label": "`"
-                },
-                "1": {
-                    "key": "ESCAPE",
+                    "key": "ESC",
                     "label": "ESC"
-                },
-                "2": {
-                    "key": "#:flashMode()",
-                    "label": "FLASH"
                 }
             }
         },
@@ -43,12 +35,12 @@
                     "label": "1"
                 },
                 "1": {
-                    "key": "F1",
-                    "label": "F1"
+                    "key": "CONS:BRIGHTNESSDECREMENT",
+                    "label": "SCRN-"
                 },
                 "2": {
-                    "key": "1",
-                    "label": "1"
+                    "key": "F1",
+                    "label": "F1"
                 }
             }
         },
@@ -64,6 +56,10 @@
                     "label": "2"
                 },
                 "1": {
+                    "key": "CONS:BRIGHTNESSINCREMENT",
+                    "label": "SCRN+"
+                },
+                "2": {
                     "key": "F2",
                     "label": "F2"
                 }
@@ -80,7 +76,7 @@
                     "key": "3",
                     "label": "3"
                 },
-                "1": {
+                "2": {
                     "key": "F3",
                     "label": "F3"
                 }
@@ -97,7 +93,7 @@
                     "key": "4",
                     "label": "4"
                 },
-                "1": {
+                "2": {
                     "key": "F4",
                     "label": "F4"
                 }
@@ -114,13 +110,9 @@
                     "key": "5",
                     "label": "5"
                 },
-                "1": {
+                "2": {
                     "key": "F5",
                     "label": "F5"
-                },
-                "2": {
-                    "key": "CONS:BRIGHTNESSDECREMENT",
-                    "label": "SCRN-"
                 }
             }
         },
@@ -135,13 +127,9 @@
                     "key": "6",
                     "label": "6"
                 },
-                "1": {
+                "2": {
                     "key": "F6",
                     "label": "F6"
-                },
-                "2": {
-                    "key": "CONS:BRIGHTNESSINCREMENT",
-                    "label": "SCRN+"
                 }
             }
         },
@@ -157,12 +145,12 @@
                     "label": "7"
                 },
                 "1": {
-                    "key": "F7",
-                    "label": "F7"
-                },
-                "2": {
                     "key": "CONS:SCANPREVIOUSTRACK",
                     "label": "PREV"
+                },
+                "2": {
+                    "key": "F7",
+                    "label": "F7"
                 }
             }
         },
@@ -178,12 +166,12 @@
                     "label": "8"
                 },
                 "1": {
-                    "key": "F8",
-                    "label": "F8"
-                },
-                "2": {
                     "key": "CONS:PAUSEPLAY",
                     "label": "PL\/PS"
+                },
+                "2": {
+                    "key": "F8",
+                    "label": "F8"
                 }
             }
         },
@@ -199,12 +187,12 @@
                     "label": "9"
                 },
                 "1": {
-                    "key": "F9",
-                    "label": "F9"
-                },
-                "2": {
                     "key": "CONS:SCANNEXTTRACK",
                     "label": "NEXT"
+                },
+                "2": {
+                    "key": "F9",
+                    "label": "F9"
                 }
             }
         },
@@ -220,12 +208,12 @@
                     "label": "0"
                 },
                 "1": {
-                    "key": "F10",
-                    "label": "F10"
-                },
-                "2": {
                     "key": "CONS:MUTE",
                     "label": "MUTE"
+                },
+                "2": {
+                    "key": "F10",
+                    "label": "F10"
                 }
             }
         },
@@ -241,12 +229,12 @@
                     "label": "-"
                 },
                 "1": {
-                    "key": "F11",
-                    "label": "F11"
-                },
-                "2": {
                     "key": "CONS:VOLUMEDOWN",
                     "label": "VOL-"
+                },
+                "2": {
+                    "key": "F11",
+                    "label": "F11"
                 }
             }
         },
@@ -262,12 +250,12 @@
                     "label": "="
                 },
                 "1": {
-                    "key": "F12",
-                    "label": "F12"
-                },
-                "2": {
                     "key": "CONS:VOLUMEUP",
                     "label": "VOL+"
+                },
+                "2": {
+                    "key": "F13",
+                    "label": "F13"
                 }
             }
         },
@@ -281,10 +269,6 @@
                 "0": {
                     "key": "BACKSPACE",
                     "label": "BKSP"
-                },
-                "1": {
-                    "key": "F13",
-                    "label": "F13"
                 }
             }
         },
@@ -300,8 +284,12 @@
                     "label": "`"
                 },
                 "1": {
-                    "key": "F14",
-                    "label": "F14"
+                    "key": "#:flashMode()",
+                    "label": "FLASH"
+                },
+                "2": {
+                    "key": "#:flashMode()",
+                    "label": "FLASH"
                 }
             }
         },
@@ -328,6 +316,10 @@
                 "0": {
                     "key": "Q",
                     "label": "Q"
+                },
+                "2": {
+                    "key": "F14",
+                    "label": "F14"
                 }
             }
         },
@@ -341,6 +333,10 @@
                 "0": {
                     "key": "W",
                     "label": "W"
+                },
+                "2": {
+                    "key": "F15",
+                    "label": "F15"
                 }
             }
         },
@@ -354,6 +350,10 @@
                 "0": {
                     "key": "E",
                     "label": "E"
+                },
+                "2": {
+                    "key": "F16",
+                    "label": "F16"
                 }
             }
         },
@@ -458,6 +458,10 @@
                 "0": {
                     "key": "LBRACE",
                     "label": "["
+                },
+                "1": {
+                    "key": "#:ledControl( 3, 15, 0 )",
+                    "label": "LED-"
                 }
             }
         },
@@ -471,6 +475,10 @@
                 "0": {
                     "key": "RBRACE",
                     "label": "]"
+                },
+                "1": {
+                    "key": "#:ledControl( 4, 15, 0 )",
+                    "label": "LED+"
                 }
             }
         },
@@ -499,8 +507,12 @@
                     "label": "DEL"
                 },
                 "1": {
-                    "key": "F15",
-                    "label": "F15"
+                    "key": "INSERT",
+                    "label": "INS"
+                },
+                "2": {
+                    "key": "INSERT",
+                    "label": "INS"
                 }
             }
         },
@@ -512,10 +524,6 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN1",
-                    "label": "\u01921"
-                },
-                "2": {
                     "key": "CAPSLOCK",
                     "label": "CAPSLK"
                 }
@@ -635,10 +643,6 @@
                 "0": {
                     "key": "L",
                     "label": "L"
-                },
-                "1": {
-                    "key": "F5",
-                    "label": "F5"
                 }
             }
         },
@@ -652,10 +656,6 @@
                 "0": {
                     "key": "SEMICOLON",
                     "label": ";"
-                },
-                "1": {
-                    "key": "F6",
-                    "label": "F6"
                 }
             }
         },
@@ -669,10 +669,6 @@
                 "0": {
                     "key": "QUOTE",
                     "label": "'"
-                },
-                "1": {
-                    "key": "F7",
-                    "label": "F7"
                 }
             }
         },
@@ -701,6 +697,10 @@
                     "label": "PGUP"
                 },
                 "1": {
+                    "key": "HOME",
+                    "label": "HOME"
+                },
+                "2": {
                     "key": "HOME",
                     "label": "HOME"
                 }
@@ -740,10 +740,6 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "X",
-                    "label": "X"
-                },
-                "2": {
                     "key": "X",
                     "label": "X"
                 }
@@ -876,14 +872,6 @@
                 "0": {
                     "key": "UP",
                     "label": "\u2191"
-                },
-                "1": {
-                    "key": "CONS:PAUSEPLAY",
-                    "label": "PL\/PS"
-                },
-                "2": {
-                    "key": "#:ledControl( 4, 15, 0 )",
-                    "label": "LED+"
                 }
             }
         },
@@ -899,6 +887,10 @@
                     "label": "PGDN"
                 },
                 "1": {
+                    "key": "END",
+                    "label": "END"
+                },
+                "2": {
                     "key": "END",
                     "label": "END"
                 }
@@ -925,8 +917,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LGUI",
-                    "label": "LGUI"
+                    "key": "FUNCTION1",
+                    "label": "\u01921"
                 }
             }
         },
@@ -977,8 +969,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RGUI",
-                    "label": "RGUI"
+                    "key": "FUN2",
+                    "label": "\u01922"
+                },
+                "1": {
+                    "key": "RCTRL",
+                    "label": "RCTRL"
                 }
             }
         },
@@ -992,14 +988,6 @@
                 "0": {
                     "key": "LEFT",
                     "label": "\u2190"
-                },
-                "1": {
-                    "key": "PREV LAYER",
-                    "label": "PREV-\u0192"
-                },
-                "2": {
-                    "key": "PREV LAYER",
-                    "label": "PREV-\u0192"
                 }
             }
         },
@@ -1013,14 +1001,6 @@
                 "0": {
                     "key": "DOWN",
                     "label": "\u2193"
-                },
-                "1": {
-                    "key": "CONS:PAUSEPLAY",
-                    "label": "PL\/PS"
-                },
-                "2": {
-                    "key": "#:ledControl( 3, 15, 0 )",
-                    "label": "LED-"
                 }
             }
         },
@@ -1034,14 +1014,6 @@
                 "0": {
                     "key": "RIGHT",
                     "label": "\u2192"
-                },
-                "1": {
-                    "key": "NEXT LAYER",
-                    "label": "NEXT-\u0192"
-                },
-                "2": {
-                    "key": "NEXT LAYER",
-                    "label": "NEXT-\u0192"
                 }
             }
         }
