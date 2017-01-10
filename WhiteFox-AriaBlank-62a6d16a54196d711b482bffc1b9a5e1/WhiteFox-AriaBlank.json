@@ -930,6 +930,10 @@
             "h": 4,
             "layers": {
                 "0": {
+                    "key": "LGUI",
+                    "label": "LGUI"
+                },
+                "1": {
                     "key": "LALT",
                     "label": "LALT"
                 }
@@ -956,6 +960,10 @@
             "h": 4,
             "layers": {
                 "0": {
+                    "key": "RGUI",
+                    "label": "RGUI"
+                },
+                "1": {
                     "key": "RALT",
                     "label": "RALT"
                 }

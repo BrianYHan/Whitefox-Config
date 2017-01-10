@@ -42,7 +42,7 @@
 #define CLI_CommitDate          "2016-10-10 23:15:13 -0700"
 #define CLI_CommitAuthor        "GitHub <noreply@github.com>"
 #define CLI_Modules             "Scan(WhiteFox) Macro(PartialMap) Output(pjrcUSB) Debug(full)"
-#define CLI_BuildDate           "2017-01-10 21:22:59 +0000"
+#define CLI_BuildDate           "2017-01-10 22:49:48 +0000"
 #define CLI_BuildOS             "Linux-4.1.5-x86_64-linode61"
 #define CLI_Arch                "arm"
 #define CLI_Chip                "mk20dx256vlh7"
