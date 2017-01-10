@@ -138,7 +138,7 @@ Guide_RM( 7 ) = { 1, 13, KEY_SLASH, 0 };
 Guide_RM( 8 ) = { 1, 13, KEY_D, 0 };
 Guide_RM( 9 ) = { 1, 13, KEY_R, 0 };
 Guide_RM( 10 ) = { 1, 13, KEY_M, 0 };
-Guide_RM( 11 ) = { 1, 13, KEY_CAPS_LOCK, 0 };
+Guide_RM( 11 ) = { 1, 13, KEY_LGUI, 0 };
 Guide_RM( 12 ) = { 1, 13, KEY_1, 0 };
 Guide_RM( 13 ) = { 1, 13, KEY_F, 0 };
 Guide_RM( 14 ) = { 1, 13, KEY_DOWN, 0 };
@@ -155,7 +155,7 @@ Guide_RM( 24 ) = { 1, 13, KEY_A, 0 };
 Guide_RM( 25 ) = { 1, 4, 2, 0, 0 };
 Guide_RM( 26 ) = { 1, 13, KEY_B, 0 };
 Guide_RM( 27 ) = { 1, 13, KEY_BACKSLASH, 0 };
-Guide_RM( 28 ) = { 1, 13, KEY_LGUI, 0 };
+Guide_RM( 28 ) = { 1, 13, KEY_LALT, 0 };
 Guide_RM( 29 ) = { 1, 13, KEY_S, 0 };
 Guide_RM( 30 ) = { 1, 13, KEY_0, 0 };
 Guide_RM( 31 ) = { 1, 13, KEY_MENU, 0 };
@@ -174,7 +174,7 @@ Guide_RM( 43 ) = { 1, 13, KEY_SPACE, 0 };
 Guide_RM( 44 ) = { 1, 13, KEY_LEFT_BRACKET, 0 };
 Guide_RM( 45 ) = { 1, 13, KEY_LCTRL, 0 };
 Guide_RM( 46 ) = { 1, 13, KEY_8, 0 };
-Guide_RM( 47 ) = { 1, 13, KEY_RGUI, 0 };
+Guide_RM( 47 ) = { 1, 13, KEY_RALT, 0 };
 Guide_RM( 48 ) = { 1, 13, KEY_QUOTE, 0 };
 Guide_RM( 49 ) = { 1, 13, KEY_RIGHT_BRACKET, 0 };
 Guide_RM( 50 ) = { 1, 13, KEY_5, 0 };
@@ -200,36 +200,33 @@ Guide_RM( 69 ) = { 1, 13, KEY_SEMICOLON, 0 };
 Guide_RM( 70 ) = { 1, 13, KEY_W, 0 };
 Guide_RM( 71 ) = { 1, 7, 0 };
 Guide_RM( 72 ) = { 1, 6, 112, 0, 0 };
-Guide_RM( 73 ) = { 1, 13, KEY_RCTRL, 0 };
-Guide_RM( 74 ) = { 1, 13, KEY_LALT, 0 };
-Guide_RM( 75 ) = { 1, 6, 226, 0, 0 };
-Guide_RM( 76 ) = { 1, 13, KEY_INSERT, 0 };
-Guide_RM( 77 ) = { 1, 6, 182, 0, 0 };
-Guide_RM( 78 ) = { 1, 6, 234, 0, 0 };
-Guide_RM( 79 ) = { 1, 13, KEY_HOME, 0 };
-Guide_RM( 80 ) = { 1, 6, 233, 0, 0 };
-Guide_RM( 81 ) = { 1, 0, 3, 15, 0, 0, 0 };
-Guide_RM( 82 ) = { 1, 6, 205, 0, 0 };
-Guide_RM( 83 ) = { 1, 13, KEY_RALT, 0 };
-Guide_RM( 84 ) = { 1, 0, 4, 15, 0, 0, 0 };
-Guide_RM( 85 ) = { 1, 6, 181, 0, 0 };
-Guide_RM( 86 ) = { 1, 6, 111, 0, 0 };
-Guide_RM( 87 ) = { 1, 13, KEY_END, 0 };
-Guide_RM( 88 ) = { 1, 13, KEY_F4, 0 };
-Guide_RM( 89 ) = { 1, 13, KEY_F16, 0 };
-Guide_RM( 90 ) = { 1, 13, KEY_F1, 0 };
-Guide_RM( 91 ) = { 1, 13, KEY_F14, 0 };
-Guide_RM( 92 ) = { 1, 13, KEY_F10, 0 };
-Guide_RM( 93 ) = { 1, 13, KEY_F7, 0 };
-Guide_RM( 94 ) = { 1, 13, KEY_F11, 0 };
-Guide_RM( 95 ) = { 1, 13, KEY_F13, 0 };
-Guide_RM( 96 ) = { 1, 13, KEY_F8, 0 };
-Guide_RM( 97 ) = { 1, 13, KEY_F5, 0 };
-Guide_RM( 98 ) = { 1, 13, KEY_F9, 0 };
-Guide_RM( 99 ) = { 1, 13, KEY_F6, 0 };
-Guide_RM( 100 ) = { 1, 13, KEY_F2, 0 };
-Guide_RM( 101 ) = { 1, 13, KEY_F3, 0 };
-Guide_RM( 102 ) = { 1, 13, KEY_F15, 0 };
+Guide_RM( 73 ) = { 1, 6, 226, 0, 0 };
+Guide_RM( 74 ) = { 1, 6, 182, 0, 0 };
+Guide_RM( 75 ) = { 1, 6, 234, 0, 0 };
+Guide_RM( 76 ) = { 1, 6, 233, 0, 0 };
+Guide_RM( 77 ) = { 1, 0, 3, 15, 0, 0, 0 };
+Guide_RM( 78 ) = { 1, 6, 205, 0, 0 };
+Guide_RM( 79 ) = { 1, 6, 181, 0, 0 };
+Guide_RM( 80 ) = { 1, 6, 111, 0, 0 };
+Guide_RM( 81 ) = { 1, 13, KEY_F4, 0 };
+Guide_RM( 82 ) = { 1, 13, KEY_F15, 0 };
+Guide_RM( 83 ) = { 1, 13, KEY_F16, 0 };
+Guide_RM( 84 ) = { 1, 13, KEY_F1, 0 };
+Guide_RM( 85 ) = { 1, 13, KEY_F13, 0 };
+Guide_RM( 86 ) = { 1, 13, KEY_F10, 0 };
+Guide_RM( 87 ) = { 1, 13, KEY_INSERT, 0 };
+Guide_RM( 88 ) = { 1, 13, KEY_F7, 0 };
+Guide_RM( 89 ) = { 1, 13, KEY_F11, 0 };
+Guide_RM( 90 ) = { 1, 13, KEY_HOME, 0 };
+Guide_RM( 91 ) = { 1, 13, KEY_F12, 0 };
+Guide_RM( 92 ) = { 1, 13, KEY_F8, 0 };
+Guide_RM( 93 ) = { 1, 13, KEY_F5, 0 };
+Guide_RM( 94 ) = { 1, 13, KEY_F9, 0 };
+Guide_RM( 95 ) = { 1, 13, KEY_F6, 0 };
+Guide_RM( 96 ) = { 1, 13, KEY_F2, 0 };
+Guide_RM( 97 ) = { 1, 13, KEY_F3, 0 };
+Guide_RM( 98 ) = { 1, 13, KEY_END, 0 };
+Guide_RM( 99 ) = { 1, 13, KEY_F14, 0 };
 
 
 // -- Result Macro List
@@ -336,9 +333,6 @@ const ResultMacro ResultMacroList[] = {
 	Define_RM( 97 ),
 	Define_RM( 98 ),
 	Define_RM( 99 ),
-	Define_RM( 100 ),
-	Define_RM( 101 ),
-	Define_RM( 102 ),
 };
 
 
@@ -424,36 +418,34 @@ Guide_TM( 69 ) = { 1, 0x00, 0x01, 0x29, 0 };
 Guide_TM( 70 ) = { 1, 0x00, 0x01, 0x12, 0 };
 Guide_TM( 71 ) = { 1, 0x00, 0x01, 0x0F, 0 };
 Guide_TM( 72 ) = { 1, 0x00, 0x01, 0x01, 0 };
-Guide_TM( 73 ) = { 1, 0x00, 0x01, 0x42, 0 };
-Guide_TM( 74 ) = { 1, 0x00, 0x01, 0x3F, 0 };
-Guide_TM( 75 ) = { 1, 0x00, 0x01, 0x0A, 0 };
-Guide_TM( 76 ) = { 1, 0x00, 0x01, 0x1E, 0 };
-Guide_TM( 77 ) = { 1, 0x00, 0x01, 0x07, 0 };
-Guide_TM( 78 ) = { 1, 0x00, 0x01, 0x0B, 0 };
-Guide_TM( 79 ) = { 1, 0x00, 0x01, 0x2D, 0 };
-Guide_TM( 80 ) = { 1, 0x00, 0x01, 0x0C, 0 };
-Guide_TM( 81 ) = { 1, 0x00, 0x01, 0x1B, 0 };
-Guide_TM( 82 ) = { 1, 0x00, 0x01, 0x08, 0 };
-Guide_TM( 83 ) = { 1, 0x00, 0x01, 0x41, 0 };
-Guide_TM( 84 ) = { 1, 0x00, 0x01, 0x1C, 0 };
-Guide_TM( 85 ) = { 1, 0x00, 0x01, 0x09, 0 };
-Guide_TM( 86 ) = { 1, 0x00, 0x01, 0x02, 0 };
-Guide_TM( 87 ) = { 1, 0x00, 0x01, 0x3C, 0 };
-Guide_TM( 88 ) = { 1, 0x00, 0x01, 0x04, 0 };
-Guide_TM( 89 ) = { 1, 0x00, 0x01, 0x13, 0 };
-Guide_TM( 90 ) = { 1, 0x00, 0x01, 0x01, 0 };
-Guide_TM( 91 ) = { 1, 0x00, 0x01, 0x11, 0 };
-Guide_TM( 92 ) = { 1, 0x00, 0x01, 0x0A, 0 };
-Guide_TM( 93 ) = { 1, 0x00, 0x01, 0x07, 0 };
-Guide_TM( 94 ) = { 1, 0x00, 0x01, 0x0B, 0 };
-Guide_TM( 95 ) = { 1, 0x00, 0x01, 0x0C, 0 };
-Guide_TM( 96 ) = { 1, 0x00, 0x01, 0x08, 0 };
-Guide_TM( 97 ) = { 1, 0x00, 0x01, 0x05, 0 };
-Guide_TM( 98 ) = { 1, 0x00, 0x01, 0x09, 0 };
-Guide_TM( 99 ) = { 1, 0x00, 0x01, 0x06, 0 };
-Guide_TM( 100 ) = { 1, 0x00, 0x01, 0x02, 0 };
-Guide_TM( 101 ) = { 1, 0x00, 0x01, 0x03, 0 };
-Guide_TM( 102 ) = { 1, 0x00, 0x01, 0x12, 0 };
+Guide_TM( 73 ) = { 1, 0x00, 0x01, 0x0A, 0 };
+Guide_TM( 74 ) = { 1, 0x00, 0x01, 0x07, 0 };
+Guide_TM( 75 ) = { 1, 0x00, 0x01, 0x0B, 0 };
+Guide_TM( 76 ) = { 1, 0x00, 0x01, 0x0C, 0 };
+Guide_TM( 77 ) = { 1, 0x00, 0x01, 0x1B, 0 };
+Guide_TM( 78 ) = { 1, 0x00, 0x01, 0x08, 0 };
+Guide_TM( 79 ) = { 1, 0x00, 0x01, 0x1C, 0 };
+Guide_TM( 80 ) = { 1, 0x00, 0x01, 0x09, 0 };
+Guide_TM( 81 ) = { 1, 0x00, 0x01, 0x02, 0 };
+Guide_TM( 82 ) = { 1, 0x00, 0x01, 0x04, 0 };
+Guide_TM( 83 ) = { 1, 0x00, 0x01, 0x13, 0 };
+Guide_TM( 84 ) = { 1, 0x00, 0x01, 0x14, 0 };
+Guide_TM( 85 ) = { 1, 0x00, 0x01, 0x01, 0 };
+Guide_TM( 86 ) = { 1, 0x00, 0x01, 0x11, 0 };
+Guide_TM( 87 ) = { 1, 0x00, 0x01, 0x0A, 0 };
+Guide_TM( 88 ) = { 1, 0x00, 0x01, 0x1E, 0 };
+Guide_TM( 89 ) = { 1, 0x00, 0x01, 0x07, 0 };
+Guide_TM( 90 ) = { 1, 0x00, 0x01, 0x0B, 0 };
+Guide_TM( 91 ) = { 1, 0x00, 0x01, 0x2D, 0 };
+Guide_TM( 92 ) = { 1, 0x00, 0x01, 0x0C, 0 };
+Guide_TM( 93 ) = { 1, 0x00, 0x01, 0x08, 0 };
+Guide_TM( 94 ) = { 1, 0x00, 0x01, 0x05, 0 };
+Guide_TM( 95 ) = { 1, 0x00, 0x01, 0x09, 0 };
+Guide_TM( 96 ) = { 1, 0x00, 0x01, 0x06, 0 };
+Guide_TM( 97 ) = { 1, 0x00, 0x01, 0x02, 0 };
+Guide_TM( 98 ) = { 1, 0x00, 0x01, 0x03, 0 };
+Guide_TM( 99 ) = { 1, 0x00, 0x01, 0x3C, 0 };
+Guide_TM( 100 ) = { 1, 0x00, 0x01, 0x12, 0 };
 
 
 // -- Trigger Macro List
@@ -539,30 +531,28 @@ const TriggerMacro TriggerMacroList[] = {
 	Define_TM( 76, 76 ),
 	Define_TM( 77, 77 ),
 	Define_TM( 78, 78 ),
-	Define_TM( 79, 79 ),
-	Define_TM( 80, 80 ),
-	Define_TM( 81, 81 ),
-	Define_TM( 82, 82 ),
-	Define_TM( 83, 83 ),
-	Define_TM( 84, 84 ),
-	Define_TM( 85, 85 ),
-	Define_TM( 86, 86 ),
-	Define_TM( 87, 87 ),
-	Define_TM( 88, 88 ),
-	Define_TM( 89, 89 ),
-	Define_TM( 90, 90 ),
-	Define_TM( 91, 91 ),
-	Define_TM( 92, 92 ),
-	Define_TM( 93, 93 ),
-	Define_TM( 94, 94 ),
-	Define_TM( 95, 95 ),
-	Define_TM( 96, 96 ),
-	Define_TM( 97, 97 ),
-	Define_TM( 98, 98 ),
-	Define_TM( 99, 99 ),
-	Define_TM( 100, 100 ),
-	Define_TM( 101, 101 ),
-	Define_TM( 102, 102 ),
+	Define_TM( 79, 11 ),
+	Define_TM( 80, 79 ),
+	Define_TM( 81, 80 ),
+	Define_TM( 82, 81 ),
+	Define_TM( 83, 82 ),
+	Define_TM( 84, 83 ),
+	Define_TM( 85, 84 ),
+	Define_TM( 86, 85 ),
+	Define_TM( 87, 86 ),
+	Define_TM( 88, 87 ),
+	Define_TM( 89, 88 ),
+	Define_TM( 90, 89 ),
+	Define_TM( 91, 90 ),
+	Define_TM( 92, 91 ),
+	Define_TM( 93, 92 ),
+	Define_TM( 94, 93 ),
+	Define_TM( 95, 94 ),
+	Define_TM( 96, 95 ),
+	Define_TM( 97, 96 ),
+	Define_TM( 98, 97 ),
+	Define_TM( 99, 98 ),
+	Define_TM( 100, 99 ),
 };
 
 
@@ -664,17 +654,17 @@ Define_TL( default, 0x46 ) = { 1, 19 };
 // - Partial Layers -
 // Partial Layer 1
 Define_TL( layer1, 0x01 ) = { 1, 72 };
-Define_TL( layer1, 0x02 ) = { 1, 86 };
+Define_TL( layer1, 0x02 ) = { 1, 81 };
 Define_TL( layer1, 0x03 ) = { 0 };
 Define_TL( layer1, 0x04 ) = { 0 };
 Define_TL( layer1, 0x05 ) = { 0 };
 Define_TL( layer1, 0x06 ) = { 0 };
-Define_TL( layer1, 0x07 ) = { 1, 77 };
-Define_TL( layer1, 0x08 ) = { 1, 82 };
-Define_TL( layer1, 0x09 ) = { 1, 85 };
-Define_TL( layer1, 0x0A ) = { 1, 75 };
-Define_TL( layer1, 0x0B ) = { 1, 78 };
-Define_TL( layer1, 0x0C ) = { 1, 80 };
+Define_TL( layer1, 0x07 ) = { 1, 74 };
+Define_TL( layer1, 0x08 ) = { 1, 78 };
+Define_TL( layer1, 0x09 ) = { 1, 80 };
+Define_TL( layer1, 0x0A ) = { 1, 73 };
+Define_TL( layer1, 0x0B ) = { 1, 75 };
+Define_TL( layer1, 0x0C ) = { 1, 76 };
 Define_TL( layer1, 0x0D ) = { 0 };
 Define_TL( layer1, 0x0E ) = { 0 };
 Define_TL( layer1, 0x0F ) = { 1, 71 };
@@ -689,68 +679,30 @@ Define_TL( layer1, 0x17 ) = { 0 };
 Define_TL( layer1, 0x18 ) = { 0 };
 Define_TL( layer1, 0x19 ) = { 0 };
 Define_TL( layer1, 0x1A ) = { 0 };
-Define_TL( layer1, 0x1B ) = { 1, 81 };
-Define_TL( layer1, 0x1C ) = { 1, 84 };
-Define_TL( layer1, 0x1D ) = { 0 };
-Define_TL( layer1, 0x1E ) = { 1, 76 };
-Define_TL( layer1, 0x1F ) = { 0 };
-Define_TL( layer1, 0x20 ) = { 0 };
-Define_TL( layer1, 0x21 ) = { 0 };
-Define_TL( layer1, 0x22 ) = { 0 };
-Define_TL( layer1, 0x23 ) = { 0 };
-Define_TL( layer1, 0x24 ) = { 0 };
-Define_TL( layer1, 0x25 ) = { 0 };
-Define_TL( layer1, 0x26 ) = { 0 };
-Define_TL( layer1, 0x27 ) = { 0 };
-Define_TL( layer1, 0x28 ) = { 0 };
-Define_TL( layer1, 0x29 ) = { 0 };
-Define_TL( layer1, 0x2A ) = { 0 };
-Define_TL( layer1, 0x2B ) = { 0 };
-Define_TL( layer1, 0x2C ) = { 0 };
-Define_TL( layer1, 0x2D ) = { 1, 79 };
-Define_TL( layer1, 0x2E ) = { 0 };
-Define_TL( layer1, 0x2F ) = { 0 };
-Define_TL( layer1, 0x30 ) = { 0 };
-Define_TL( layer1, 0x31 ) = { 0 };
-Define_TL( layer1, 0x32 ) = { 0 };
-Define_TL( layer1, 0x33 ) = { 0 };
-Define_TL( layer1, 0x34 ) = { 0 };
-Define_TL( layer1, 0x35 ) = { 0 };
-Define_TL( layer1, 0x36 ) = { 0 };
-Define_TL( layer1, 0x37 ) = { 0 };
-Define_TL( layer1, 0x38 ) = { 0 };
-Define_TL( layer1, 0x39 ) = { 0 };
-Define_TL( layer1, 0x3A ) = { 0 };
-Define_TL( layer1, 0x3B ) = { 0 };
-Define_TL( layer1, 0x3C ) = { 1, 87 };
-Define_TL( layer1, 0x3D ) = { 0 };
-Define_TL( layer1, 0x3E ) = { 0 };
-Define_TL( layer1, 0x3F ) = { 1, 74 };
-Define_TL( layer1, 0x40 ) = { 0 };
-Define_TL( layer1, 0x41 ) = { 1, 83 };
-Define_TL( layer1, 0x42 ) = { 1, 73 };
+Define_TL( layer1, 0x1B ) = { 1, 77 };
+Define_TL( layer1, 0x1C ) = { 1, 79 };
 
 // Partial Layer 2
-Define_TL( layer2, 0x01 ) = { 1, 90 };
-Define_TL( layer2, 0x02 ) = { 1, 100 };
-Define_TL( layer2, 0x03 ) = { 1, 101 };
-Define_TL( layer2, 0x04 ) = { 1, 88 };
-Define_TL( layer2, 0x05 ) = { 1, 97 };
-Define_TL( layer2, 0x06 ) = { 1, 99 };
-Define_TL( layer2, 0x07 ) = { 1, 93 };
-Define_TL( layer2, 0x08 ) = { 1, 96 };
-Define_TL( layer2, 0x09 ) = { 1, 98 };
-Define_TL( layer2, 0x0A ) = { 1, 92 };
-Define_TL( layer2, 0x0B ) = { 1, 94 };
-Define_TL( layer2, 0x0C ) = { 1, 95 };
+Define_TL( layer2, 0x01 ) = { 1, 85 };
+Define_TL( layer2, 0x02 ) = { 1, 97 };
+Define_TL( layer2, 0x03 ) = { 1, 98 };
+Define_TL( layer2, 0x04 ) = { 1, 82 };
+Define_TL( layer2, 0x05 ) = { 1, 94 };
+Define_TL( layer2, 0x06 ) = { 1, 96 };
+Define_TL( layer2, 0x07 ) = { 1, 89 };
+Define_TL( layer2, 0x08 ) = { 1, 93 };
+Define_TL( layer2, 0x09 ) = { 1, 95 };
+Define_TL( layer2, 0x0A ) = { 1, 87 };
+Define_TL( layer2, 0x0B ) = { 1, 90 };
+Define_TL( layer2, 0x0C ) = { 1, 92 };
 Define_TL( layer2, 0x0D ) = { 0 };
 Define_TL( layer2, 0x0E ) = { 0 };
 Define_TL( layer2, 0x0F ) = { 1, 71 };
 Define_TL( layer2, 0x10 ) = { 0 };
-Define_TL( layer2, 0x11 ) = { 1, 91 };
-Define_TL( layer2, 0x12 ) = { 1, 102 };
-Define_TL( layer2, 0x13 ) = { 1, 89 };
-Define_TL( layer2, 0x14 ) = { 0 };
+Define_TL( layer2, 0x11 ) = { 1, 86 };
+Define_TL( layer2, 0x12 ) = { 1, 100 };
+Define_TL( layer2, 0x13 ) = { 1, 83 };
+Define_TL( layer2, 0x14 ) = { 1, 84 };
 Define_TL( layer2, 0x15 ) = { 0 };
 Define_TL( layer2, 0x16 ) = { 0 };
 Define_TL( layer2, 0x17 ) = { 0 };
@@ -760,7 +712,7 @@ Define_TL( layer2, 0x1A ) = { 0 };
 Define_TL( layer2, 0x1B ) = { 0 };
 Define_TL( layer2, 0x1C ) = { 0 };
 Define_TL( layer2, 0x1D ) = { 0 };
-Define_TL( layer2, 0x1E ) = { 1, 76 };
+Define_TL( layer2, 0x1E ) = { 1, 88 };
 Define_TL( layer2, 0x1F ) = { 0 };
 Define_TL( layer2, 0x20 ) = { 0 };
 Define_TL( layer2, 0x21 ) = { 0 };
@@ -775,7 +727,7 @@ Define_TL( layer2, 0x29 ) = { 0 };
 Define_TL( layer2, 0x2A ) = { 0 };
 Define_TL( layer2, 0x2B ) = { 0 };
 Define_TL( layer2, 0x2C ) = { 0 };
-Define_TL( layer2, 0x2D ) = { 1, 79 };
+Define_TL( layer2, 0x2D ) = { 1, 91 };
 Define_TL( layer2, 0x2E ) = { 0 };
 Define_TL( layer2, 0x2F ) = { 0 };
 Define_TL( layer2, 0x30 ) = { 0 };
@@ -790,7 +742,7 @@ Define_TL( layer2, 0x38 ) = { 0 };
 Define_TL( layer2, 0x39 ) = { 0 };
 Define_TL( layer2, 0x3A ) = { 0 };
 Define_TL( layer2, 0x3B ) = { 0 };
-Define_TL( layer2, 0x3C ) = { 1, 87 };
+Define_TL( layer2, 0x3C ) = { 1, 99 };
 
 
 // -- ScanCode Offset Map
@@ -824,7 +776,7 @@ default_tl_0x00, default_tl_0x01, default_tl_0x02, default_tl_0x03, default_tl_0
 // - Partial Layer ScanCode Lookup Maps -
 // Partial Layer 1
 const nat_ptr_t *layer1_scanMap[] = {
-layer1_tl_0x01, layer1_tl_0x02, layer1_tl_0x03, layer1_tl_0x04, layer1_tl_0x05, layer1_tl_0x06, layer1_tl_0x07, layer1_tl_0x08, layer1_tl_0x09, layer1_tl_0x0A, layer1_tl_0x0B, layer1_tl_0x0C, layer1_tl_0x0D, layer1_tl_0x0E, layer1_tl_0x0F, layer1_tl_0x10, layer1_tl_0x11, layer1_tl_0x12, layer1_tl_0x13, layer1_tl_0x14, layer1_tl_0x15, layer1_tl_0x16, layer1_tl_0x17, layer1_tl_0x18, layer1_tl_0x19, layer1_tl_0x1A, layer1_tl_0x1B, layer1_tl_0x1C, layer1_tl_0x1D, layer1_tl_0x1E, layer1_tl_0x1F, layer1_tl_0x20, layer1_tl_0x21, layer1_tl_0x22, layer1_tl_0x23, layer1_tl_0x24, layer1_tl_0x25, layer1_tl_0x26, layer1_tl_0x27, layer1_tl_0x28, layer1_tl_0x29, layer1_tl_0x2A, layer1_tl_0x2B, layer1_tl_0x2C, layer1_tl_0x2D, layer1_tl_0x2E, layer1_tl_0x2F, layer1_tl_0x30, layer1_tl_0x31, layer1_tl_0x32, layer1_tl_0x33, layer1_tl_0x34, layer1_tl_0x35, layer1_tl_0x36, layer1_tl_0x37, layer1_tl_0x38, layer1_tl_0x39, layer1_tl_0x3A, layer1_tl_0x3B, layer1_tl_0x3C, layer1_tl_0x3D, layer1_tl_0x3E, layer1_tl_0x3F, layer1_tl_0x40, layer1_tl_0x41, layer1_tl_0x42
+layer1_tl_0x01, layer1_tl_0x02, layer1_tl_0x03, layer1_tl_0x04, layer1_tl_0x05, layer1_tl_0x06, layer1_tl_0x07, layer1_tl_0x08, layer1_tl_0x09, layer1_tl_0x0A, layer1_tl_0x0B, layer1_tl_0x0C, layer1_tl_0x0D, layer1_tl_0x0E, layer1_tl_0x0F, layer1_tl_0x10, layer1_tl_0x11, layer1_tl_0x12, layer1_tl_0x13, layer1_tl_0x14, layer1_tl_0x15, layer1_tl_0x16, layer1_tl_0x17, layer1_tl_0x18, layer1_tl_0x19, layer1_tl_0x1A, layer1_tl_0x1B, layer1_tl_0x1C
 };
 
 // Partial Layer 2
