@@ -24,6 +24,8 @@ U"Q" : U"F13";
 U"W" : U"F14";
 U"E" : U"F15";
 U"R" : U"F16";
+U"LBRACE" : ledControl( 3, 15, 0 );
+U"RBRACE" : ledControl( 4, 15, 0 );
 U"DELETE" : U"INSERT";
 U"PAGEUP" : U"HOME";
 U"PAGEDOWN" : U"END";
