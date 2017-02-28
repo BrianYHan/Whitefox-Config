@@ -9,4 +9,5 @@ $ dfu-util -a 0 -R -D ~/Envs/whitefox_config/WhiteFox-AriaBlank-62a6d16a54196d71
 
 # Commands
 F1 -> Media keys and KB stuff
+
 F2 -> Function layer 
