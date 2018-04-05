@@ -8,6 +8,7 @@ KLL = "0.3c";
 Date = "2016-05-30";
 Generator = "KIICONF 0.2";
 
+U"TAB" : U"CAPSLOCK";
 U"LEFT" : ledControl( 0, 15 );
 U"DOWN" : ledControl( 5, 255 );
 U"RIGHT" : ledControl( 1, 15 );
