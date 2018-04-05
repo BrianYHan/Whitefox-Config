@@ -285,10 +285,6 @@
                     "key": "TAB",
                     "label": "TAB"
                 },
-                "1": {
-                    "key": "TAB",
-                    "label": "TAB"
-                },
                 "2": {
                     "key": "CAPSLOCK",
                     "label": "CAPSLK"
@@ -901,10 +897,6 @@
                 "0": {
                     "key": "FUN1",
                     "label": "\u01921"
-                },
-                "1": {
-                    "key": "FUN1",
-                    "label": "\u01921"
                 }
             }
         },
@@ -916,12 +908,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "PAGEDOWN",
-                    "label": "PGDN"
-                },
-                "1": {
-                    "key": "FUN2",
-                    "label": "\u01922"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 }
             }
         },
@@ -1011,12 +999,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CONS:VOLUMEDOWN",
-                    "label": "VOL-"
-                },
-                "1": {
-                    "key": "CONS:SCANPREVIOUSTRACK",
-                    "label": "PREV"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 },
                 "2": {
                     "key": "#:ledControl( 0, 15 )",
@@ -1032,12 +1016,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CONS:MUTE",
-                    "label": "MUTE"
-                },
-                "1": {
-                    "key": "CONS:PAUSEPLAY",
-                    "label": "PL\/PS"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 },
                 "2": {
                     "key": "#:ledControl( 5, 255 )",
@@ -1053,12 +1033,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CONS:VOLUMEUP",
-                    "label": "VOL+"
-                },
-                "1": {
-                    "key": "CONS:SCANNEXTTRACK",
-                    "label": "NEXT"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 },
                 "2": {
                     "key": "#:ledControl( 1, 15 )",

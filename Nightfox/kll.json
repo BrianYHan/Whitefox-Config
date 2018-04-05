@@ -1603,12 +1603,18 @@
                 ]
             },
             ":0 S061": {
-                "kll": "S0x03d : U0x04e;",
+                "kll": "S0x03d : layerShift(1);",
                 "result": [
                     [
                         {
-                            "type": "USBCode",
-                            "uid": 78
+                            "args": [
+                                {
+                                    "type": "CapArgValue",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "layerShift",
+                            "type": "Capability"
                         }
                     ]
                 ],
@@ -1736,12 +1742,18 @@
                 ]
             },
             ":0 S069": {
-                "kll": "S0x045 : CONS0x0ea;",
+                "kll": "S0x045 : layerShift(1);",
                 "result": [
                     [
                         {
-                            "type": "ConsCode",
-                            "uid": 234
+                            "args": [
+                                {
+                                    "type": "CapArgValue",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "layerShift",
+                            "type": "Capability"
                         }
                     ]
                 ],
@@ -1755,12 +1767,18 @@
                 ]
             },
             ":0 S070": {
-                "kll": "S0x046 : CONS0x0e2;",
+                "kll": "S0x046 : layerShift(1);",
                 "result": [
                     [
                         {
-                            "type": "ConsCode",
-                            "uid": 226
+                            "args": [
+                                {
+                                    "type": "CapArgValue",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "layerShift",
+                            "type": "Capability"
                         }
                     ]
                 ],
@@ -1774,12 +1792,18 @@
                 ]
             },
             ":0 S071": {
-                "kll": "S0x047 : CONS0x0e9;",
+                "kll": "S0x047 : layerShift(1);",
                 "result": [
                     [
                         {
-                            "type": "ConsCode",
-                            "uid": 233
+                            "args": [
+                                {
+                                    "type": "CapArgValue",
+                                    "value": 1
+                                }
+                            ],
+                            "name": "layerShift",
+                            "type": "Capability"
                         }
                     ]
                 ],
@@ -2037,25 +2061,6 @@
                         {
                             "type": "ScanCode",
                             "uid": 14
-                        }
-                    ]
-                ]
-            },
-            ":0 S017": {
-                "kll": "S0x011 : U0x02b;",
-                "result": [
-                    [
-                        {
-                            "type": "USBCode",
-                            "uid": 43
-                        }
-                    ]
-                ],
-                "trigger": [
-                    [
-                        {
-                            "type": "ScanCode",
-                            "uid": 17
                         }
                     ]
                 ]
@@ -2433,56 +2438,6 @@
                     ]
                 ]
             },
-            ":0 S060": {
-                "kll": "S0x03c : layerShift(1);",
-                "result": [
-                    [
-                        {
-                            "args": [
-                                {
-                                    "type": "CapArgValue",
-                                    "value": 1
-                                }
-                            ],
-                            "name": "layerShift",
-                            "type": "Capability"
-                        }
-                    ]
-                ],
-                "trigger": [
-                    [
-                        {
-                            "type": "ScanCode",
-                            "uid": 60
-                        }
-                    ]
-                ]
-            },
-            ":0 S061": {
-                "kll": "S0x03d : layerShift(2);",
-                "result": [
-                    [
-                        {
-                            "args": [
-                                {
-                                    "type": "CapArgValue",
-                                    "value": 2
-                                }
-                            ],
-                            "name": "layerShift",
-                            "type": "Capability"
-                        }
-                    ]
-                ],
-                "trigger": [
-                    [
-                        {
-                            "type": "ScanCode",
-                            "uid": 61
-                        }
-                    ]
-                ]
-            },
             ":0 S067": {
                 "kll": "S0x043 : layerShift(1);",
                 "result": [
@@ -2504,63 +2459,6 @@
                         {
                             "type": "ScanCode",
                             "uid": 67
-                        }
-                    ]
-                ]
-            },
-            ":0 S069": {
-                "kll": "S0x045 : CONS0x0b6;",
-                "result": [
-                    [
-                        {
-                            "type": "ConsCode",
-                            "uid": 182
-                        }
-                    ]
-                ],
-                "trigger": [
-                    [
-                        {
-                            "type": "ScanCode",
-                            "uid": 69
-                        }
-                    ]
-                ]
-            },
-            ":0 S070": {
-                "kll": "S0x046 : CONS0x0cd;",
-                "result": [
-                    [
-                        {
-                            "type": "ConsCode",
-                            "uid": 205
-                        }
-                    ]
-                ],
-                "trigger": [
-                    [
-                        {
-                            "type": "ScanCode",
-                            "uid": 70
-                        }
-                    ]
-                ]
-            },
-            ":0 S071": {
-                "kll": "S0x047 : CONS0x0b5;",
-                "result": [
-                    [
-                        {
-                            "type": "ConsCode",
-                            "uid": 181
-                        }
-                    ]
-                ],
-                "trigger": [
-                    [
-                        {
-                            "type": "ScanCode",
-                            "uid": 71
                         }
                     ]
                 ]
